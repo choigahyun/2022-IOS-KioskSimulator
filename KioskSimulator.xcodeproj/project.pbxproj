@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53EB8207C567E0D8FACA3BD1 /* Pods_KioskSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F247B916BECC9B4D69047C /* Pods_KioskSimulator.framework */; };
+		5F83045D288960EC00DD0FD7 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 5F83045C288960EC00DD0FD7 /* img */; };
+		5F83045F2889707300DD0FD7 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F83045E2889707300DD0FD7 /* CategoryViewController.swift */; };
+		5F8F18E32892131700D8D460 /* SelectMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F18E22892131700D8D460 /* SelectMenuCell.swift */; };
+		5F9C5926288EA20400A89565 /* SeasonMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C5925288EA20400A89565 /* SeasonMenuController.swift */; };
+		5F9C5934288F93A100A89565 /* NonCoffeeMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C5933288F93A100A89565 /* NonCoffeeMenuController.swift */; };
+		5F9C5936288F93CE00A89565 /* NonCoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C5935288F93CE00A89565 /* NonCoffeeCell.swift */; };
+		5F9C5938288F955300A89565 /* IceBlendedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C5937288F955300A89565 /* IceBlendedCell.swift */; };
+		5F9C593C288F95C200A89565 /* TeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C593B288F95C200A89565 /* TeaCell.swift */; };
+		5F9C593E288F95F100A89565 /* DesertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C593D288F95F100A89565 /* DesertCell.swift */; };
+		5F9C5940288F99C600A89565 /* IceBlendedMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C593F288F99C600A89565 /* IceBlendedMenuController.swift */; };
+		5F9C5942288FA02D00A89565 /* TeaMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C5941288FA02D00A89565 /* TeaMenuController.swift */; };
+		5F9C5944288FB41400A89565 /* DesertMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C5943288FB41400A89565 /* DesertMenuController.swift */; };
+		5FAD46FB288D9A7D0038F22A /* SeasonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD46FA288D9A7D0038F22A /* SeasonCell.swift */; };
+		5FAEC228288FD1E5005A422C /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAEC227288FD1E5005A422C /* OrderData.swift */; };
+		5FBBE1342896332F00CA1AC0 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBE1332896332F00CA1AC0 /* OptionViewController.swift */; };
+		5FBBE137289635BB00CA1AC0 /* HoticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBE136289635BB00CA1AC0 /* HoticeCell.swift */; };
+		5FBBE139289635E700CA1AC0 /* IceTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBE138289635E700CA1AC0 /* IceTypeCell.swift */; };
+		5FBBE13B2896360000CA1AC0 /* IceAmountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBE13A2896360000CA1AC0 /* IceAmountCell.swift */; };
+		5FBBE13D2896361B00CA1AC0 /* SugarLevelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBE13C2896361B00CA1AC0 /* SugarLevelCell.swift */; };
+		5FBBE13F2896363C00CA1AC0 /* HalfShotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBE13E2896363C00CA1AC0 /* HalfShotCell.swift */; };
+		5FBBE1412896365700CA1AC0 /* WhipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBBE1402896365700CA1AC0 /* WhipCell.swift */; };
+		5FDBFFCA288FCAF6003D9503 /* OrderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDBFFC9288FCAF6003D9503 /* OrderListCell.swift */; };
+		5FDBFFCC288FCBA9003D9503 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDBFFCB288FCBA9003D9503 /* OrderListViewController.swift */; };
+		5FDDC45A28893941008EB4A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC45928893941008EB4A7 /* AppDelegate.swift */; };
+		5FDDC45C28893941008EB4A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC45B28893941008EB4A7 /* SceneDelegate.swift */; };
+		5FDDC45E28893941008EB4A7 /* CoffeeMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC45D28893941008EB4A7 /* CoffeeMenuController.swift */; };
+		5FDDC46128893941008EB4A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC45F28893941008EB4A7 /* Main.storyboard */; };
+		5FDDC46328893943008EB4A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC46228893943008EB4A7 /* Assets.xcassets */; };
+		5FDDC46628893943008EB4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC46428893943008EB4A7 /* LaunchScreen.storyboard */; };
+		5FDDC46E28893C07008EB4A7 /* CoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC46D28893C07008EB4A7 /* CoffeeCell.swift */; };
+		5FDDC47028893D0C008EB4A7 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC46F28893D0C008EB4A7 /* MenuData.swift */; };
+		5FDDC473288945FD008EB4A7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC472288945FD008EB4A7 /* MenuViewController.swift */; };
+		5FE4897D28982757004495FE /* RecieptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4897C28982757004495FE /* RecieptViewController.swift */; };
+		5FF8D8FC28974F220045DA99 /* VanilaSyrupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8D8FB28974F220045DA99 /* VanilaSyrupCell.swift */; };
+		5FF8D8FE28974F330045DA99 /* HazelnutSyrupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8D8FD28974F330045DA99 /* HazelnutSyrupCell.swift */; };
+		5FF8D90028974F420045DA99 /* ShotAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8D8FF28974F420045DA99 /* ShotAddCell.swift */; };
+		5FF8D90228974F4F0045DA99 /* PearlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8D90128974F4F0045DA99 /* PearlCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F83045C288960EC00DD0FD7 /* img */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = img; sourceTree = SOURCE_ROOT; };
+		5F83045E2889707300DD0FD7 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		5F8F18E22892131700D8D460 /* SelectMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMenuCell.swift; sourceTree = "<group>"; };
+		5F9C5925288EA20400A89565 /* SeasonMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonMenuController.swift; sourceTree = "<group>"; };
+		5F9C5933288F93A100A89565 /* NonCoffeeMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonCoffeeMenuController.swift; sourceTree = "<group>"; };
+		5F9C5935288F93CE00A89565 /* NonCoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonCoffeeCell.swift; sourceTree = "<group>"; };
+		5F9C5937288F955300A89565 /* IceBlendedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceBlendedCell.swift; sourceTree = "<group>"; };
+		5F9C593B288F95C200A89565 /* TeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaCell.swift; sourceTree = "<group>"; };
+		5F9C593D288F95F100A89565 /* DesertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertCell.swift; sourceTree = "<group>"; };
+		5F9C593F288F99C600A89565 /* IceBlendedMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceBlendedMenuController.swift; sourceTree = "<group>"; };
+		5F9C5941288FA02D00A89565 /* TeaMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaMenuController.swift; sourceTree = "<group>"; };
+		5F9C5943288FB41400A89565 /* DesertMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesertMenuController.swift; sourceTree = "<group>"; };
+		5FAD46FA288D9A7D0038F22A /* SeasonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonCell.swift; sourceTree = "<group>"; };
+		5FAEC227288FD1E5005A422C /* OrderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderData.swift; sourceTree = "<group>"; };
+		5FBBE1332896332F00CA1AC0 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		5FBBE136289635BB00CA1AC0 /* HoticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoticeCell.swift; sourceTree = "<group>"; };
+		5FBBE138289635E700CA1AC0 /* IceTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceTypeCell.swift; sourceTree = "<group>"; };
+		5FBBE13A2896360000CA1AC0 /* IceAmountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceAmountCell.swift; sourceTree = "<group>"; };
+		5FBBE13C2896361B00CA1AC0 /* SugarLevelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarLevelCell.swift; sourceTree = "<group>"; };
+		5FBBE13E2896363C00CA1AC0 /* HalfShotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfShotCell.swift; sourceTree = "<group>"; };
+		5FBBE1402896365700CA1AC0 /* WhipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhipCell.swift; sourceTree = "<group>"; };
+		5FDBFFC9288FCAF6003D9503 /* OrderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListCell.swift; sourceTree = "<group>"; };
+		5FDBFFCB288FCBA9003D9503 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		5FDDC45628893941008EB4A7 /* KioskSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KioskSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDDC45928893941008EB4A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FDDC45B28893941008EB4A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5FDDC45D28893941008EB4A7 /* CoffeeMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenuController.swift; sourceTree = "<group>"; };
+		5FDDC46028893941008EB4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FDDC46228893943008EB4A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FDDC46528893943008EB4A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FDDC46728893943008EB4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FDDC46D28893C07008EB4A7 /* CoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCell.swift; sourceTree = "<group>"; };
+		5FDDC46F28893D0C008EB4A7 /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		5FDDC472288945FD008EB4A7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5FE4897C28982757004495FE /* RecieptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieptViewController.swift; sourceTree = "<group>"; };
+		5FF8D8FB28974F220045DA99 /* VanilaSyrupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanilaSyrupCell.swift; sourceTree = "<group>"; };
+		5FF8D8FD28974F330045DA99 /* HazelnutSyrupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HazelnutSyrupCell.swift; sourceTree = "<group>"; };
+		5FF8D8FF28974F420045DA99 /* ShotAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotAddCell.swift; sourceTree = "<group>"; };
+		5FF8D90128974F4F0045DA99 /* PearlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PearlCell.swift; sourceTree = "<group>"; };
+		71F247B916BECC9B4D69047C /* Pods_KioskSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KioskSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B34AFFCC2B1B7E82499C862 /* Pods-KioskSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskSimulator.debug.xcconfig"; path = "Target Support Files/Pods-KioskSimulator/Pods-KioskSimulator.debug.xcconfig"; sourceTree = "<group>"; };
+		D3682DEBA449C034E094BFAF /* Pods-KioskSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KioskSimulator.release.xcconfig"; path = "Target Support Files/Pods-KioskSimulator/Pods-KioskSimulator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDDC45328893941008EB4A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EB8207C567E0D8FACA3BD1 /* Pods_KioskSimulator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3556D68A3341DC8DA88697FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B34AFFCC2B1B7E82499C862 /* Pods-KioskSimulator.debug.xcconfig */,
+				D3682DEBA449C034E094BFAF /* Pods-KioskSimulator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F83045828895B6B00DD0FD7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5FAD46FA288D9A7D0038F22A /* SeasonCell.swift */,
+				5FDDC46D28893C07008EB4A7 /* CoffeeCell.swift */,
+				5F9C5935288F93CE00A89565 /* NonCoffeeCell.swift */,
+				5F9C5937288F955300A89565 /* IceBlendedCell.swift */,
+				5F9C593B288F95C200A89565 /* TeaCell.swift */,
+				5F9C593D288F95F100A89565 /* DesertCell.swift */,
+				5FDBFFC9288FCAF6003D9503 /* OrderListCell.swift */,
+				5FBBE135289635A100CA1AC0 /* OptionView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5F83045928895B7900DD0FD7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDC46F28893D0C008EB4A7 /* MenuData.swift */,
+				5FAEC227288FD1E5005A422C /* OrderData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5F9C592D288F852800A89565 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDC46428893943008EB4A7 /* LaunchScreen.storyboard */,
+				5FDDC45F28893941008EB4A7 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5F9C5932288F936900A89565 /* MenuCollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				5F9C5925288EA20400A89565 /* SeasonMenuController.swift */,
+				5FDDC45D28893941008EB4A7 /* CoffeeMenuController.swift */,
+				5F9C5933288F93A100A89565 /* NonCoffeeMenuController.swift */,
+				5F9C593F288F99C600A89565 /* IceBlendedMenuController.swift */,
+				5F9C5941288FA02D00A89565 /* TeaMenuController.swift */,
+				5F9C5943288FB41400A89565 /* DesertMenuController.swift */,
+			);
+			path = MenuCollectionViews;
+			sourceTree = "<group>";
+		};
+		5FBBE135289635A100CA1AC0 /* OptionView */ = {
+			isa = PBXGroup;
+			children = (
+				5F8F18E22892131700D8D460 /* SelectMenuCell.swift */,
+				5FBBE136289635BB00CA1AC0 /* HoticeCell.swift */,
+				5FBBE138289635E700CA1AC0 /* IceTypeCell.swift */,
+				5FBBE13A2896360000CA1AC0 /* IceAmountCell.swift */,
+				5FBBE13C2896361B00CA1AC0 /* SugarLevelCell.swift */,
+				5FBBE13E2896363C00CA1AC0 /* HalfShotCell.swift */,
+				5FBBE1402896365700CA1AC0 /* WhipCell.swift */,
+				5FF8D8FB28974F220045DA99 /* VanilaSyrupCell.swift */,
+				5FF8D8FD28974F330045DA99 /* HazelnutSyrupCell.swift */,
+				5FF8D8FF28974F420045DA99 /* ShotAddCell.swift */,
+				5FF8D90128974F4F0045DA99 /* PearlCell.swift */,
+			);
+			path = OptionView;
+			sourceTree = "<group>";
+		};
+		5FDDC44D28893941008EB4A7 = {
+			isa = PBXGroup;
+			children = (
+				5FDDC45828893941008EB4A7 /* KioskSimulator */,
+				5FDDC45728893941008EB4A7 /* Products */,
+				3556D68A3341DC8DA88697FB /* Pods */,
+				8EBCC701501C0A8A90C14095 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FDDC45728893941008EB4A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDC45628893941008EB4A7 /* KioskSimulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FDDC45828893941008EB4A7 /* KioskSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				5F9C592D288F852800A89565 /* Storyboards */,
+				5F83045C288960EC00DD0FD7 /* img */,
+				5F83045928895B7900DD0FD7 /* Data */,
+				5F83045828895B6B00DD0FD7 /* Cells */,
+				5FDDC471288945D9008EB4A7 /* ViewControllers */,
+				5FDDC45928893941008EB4A7 /* AppDelegate.swift */,
+				5FDDC45B28893941008EB4A7 /* SceneDelegate.swift */,
+				5FDDC46228893943008EB4A7 /* Assets.xcassets */,
+				5FDDC46728893943008EB4A7 /* Info.plist */,
+			);
+			path = KioskSimulator;
+			sourceTree = "<group>";
+		};
+		5FDDC471288945D9008EB4A7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5FDDC472288945FD008EB4A7 /* MenuViewController.swift */,
+				5F83045E2889707300DD0FD7 /* CategoryViewController.swift */,
+				5FDBFFCB288FCBA9003D9503 /* OrderListViewController.swift */,
+				5FBBE1332896332F00CA1AC0 /* OptionViewController.swift */,
+				5FE4897C28982757004495FE /* RecieptViewController.swift */,
+				5F9C5932288F936900A89565 /* MenuCollectionViews */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8EBCC701501C0A8A90C14095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F247B916BECC9B4D69047C /* Pods_KioskSimulator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FDDC45528893941008EB4A7 /* KioskSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FDDC46A28893943008EB4A7 /* Build configuration list for PBXNativeTarget "KioskSimulator" */;
+			buildPhases = (
+				B0A6E4E21E89A1FCE7BB32DA /* [CP] Check Pods Manifest.lock */,
+				5FDDC45228893941008EB4A7 /* Sources */,
+				5FDDC45328893941008EB4A7 /* Frameworks */,
+				5FDDC45428893941008EB4A7 /* Resources */,
+				461CAD03C70D140BFBCEAE50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KioskSimulator;
+			productName = KioskSimulator;
+			productReference = 5FDDC45628893941008EB4A7 /* KioskSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FDDC44E28893941008EB4A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5FDDC45528893941008EB4A7 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5FDDC45128893941008EB4A7 /* Build configuration list for PBXProject "KioskSimulator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FDDC44D28893941008EB4A7;
+			productRefGroup = 5FDDC45728893941008EB4A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FDDC45528893941008EB4A7 /* KioskSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FDDC45428893941008EB4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F83045D288960EC00DD0FD7 /* img in Resources */,
+				5FDDC46628893943008EB4A7 /* LaunchScreen.storyboard in Resources */,
+				5FDDC46328893943008EB4A7 /* Assets.xcassets in Resources */,
+				5FDDC46128893941008EB4A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		461CAD03C70D140BFBCEAE50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KioskSimulator/Pods-KioskSimulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KioskSimulator/Pods-KioskSimulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KioskSimulator/Pods-KioskSimulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A6E4E21E89A1FCE7BB32DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KioskSimulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FDDC45228893941008EB4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9C5940288F99C600A89565 /* IceBlendedMenuController.swift in Sources */,
+				5F9C5936288F93CE00A89565 /* NonCoffeeCell.swift in Sources */,
+				5FDDC45E28893941008EB4A7 /* CoffeeMenuController.swift in Sources */,
+				5F9C5944288FB41400A89565 /* DesertMenuController.swift in Sources */,
+				5FF8D8FE28974F330045DA99 /* HazelnutSyrupCell.swift in Sources */,
+				5F8F18E32892131700D8D460 /* SelectMenuCell.swift in Sources */,
+				5FBBE137289635BB00CA1AC0 /* HoticeCell.swift in Sources */,
+				5F9C593C288F95C200A89565 /* TeaCell.swift in Sources */,
+				5FBBE13F2896363C00CA1AC0 /* HalfShotCell.swift in Sources */,
+				5FAD46FB288D9A7D0038F22A /* SeasonCell.swift in Sources */,
+				5FE4897D28982757004495FE /* RecieptViewController.swift in Sources */,
+				5FDDC473288945FD008EB4A7 /* MenuViewController.swift in Sources */,
+				5FF8D90028974F420045DA99 /* ShotAddCell.swift in Sources */,
+				5F9C5938288F955300A89565 /* IceBlendedCell.swift in Sources */,
+				5FDDC45A28893941008EB4A7 /* AppDelegate.swift in Sources */,
+				5F9C5942288FA02D00A89565 /* TeaMenuController.swift in Sources */,
+				5FBBE1412896365700CA1AC0 /* WhipCell.swift in Sources */,
+				5FDBFFCA288FCAF6003D9503 /* OrderListCell.swift in Sources */,
+				5FDDC47028893D0C008EB4A7 /* MenuData.swift in Sources */,
+				5FDDC46E28893C07008EB4A7 /* CoffeeCell.swift in Sources */,
+				5F9C5934288F93A100A89565 /* NonCoffeeMenuController.swift in Sources */,
+				5FF8D8FC28974F220045DA99 /* VanilaSyrupCell.swift in Sources */,
+				5FDBFFCC288FCBA9003D9503 /* OrderListViewController.swift in Sources */,
+				5F9C5926288EA20400A89565 /* SeasonMenuController.swift in Sources */,
+				5FBBE13B2896360000CA1AC0 /* IceAmountCell.swift in Sources */,
+				5FAEC228288FD1E5005A422C /* OrderData.swift in Sources */,
+				5FDDC45C28893941008EB4A7 /* SceneDelegate.swift in Sources */,
+				5FBBE13D2896361B00CA1AC0 /* SugarLevelCell.swift in Sources */,
+				5F9C593E288F95F100A89565 /* DesertCell.swift in Sources */,
+				5F83045F2889707300DD0FD7 /* CategoryViewController.swift in Sources */,
+				5FBBE1342896332F00CA1AC0 /* OptionViewController.swift in Sources */,
+				5FF8D90228974F4F0045DA99 /* PearlCell.swift in Sources */,
+				5FBBE139289635E700CA1AC0 /* IceTypeCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FDDC45F28893941008EB4A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDC46028893941008EB4A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FDDC46428893943008EB4A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDC46528893943008EB4A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FDDC46828893943008EB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FDDC46928893943008EB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FDDC46B28893943008EB4A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B34AFFCC2B1B7E82499C862 /* Pods-KioskSimulator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSVRB78YW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KioskSimulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-even.KioskSimulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FDDC46C28893943008EB4A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3682DEBA449C034E094BFAF /* Pods-KioskSimulator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LSVRB78YW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KioskSimulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-even.KioskSimulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FDDC45128893941008EB4A7 /* Build configuration list for PBXProject "KioskSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDDC46828893943008EB4A7 /* Debug */,
+				5FDDC46928893943008EB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FDDC46A28893943008EB4A7 /* Build configuration list for PBXNativeTarget "KioskSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDDC46B28893943008EB4A7 /* Debug */,
+				5FDDC46C28893943008EB4A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FDDC44E28893941008EB4A7 /* Project object */;
+}
